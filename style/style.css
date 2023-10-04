@@ -1,0 +1,329 @@
+* {
+   margin: 0;
+   /* это сброс всех отступов */
+   padding: 0;
+}
+
+body {
+   font-family: 'Dosis', sans-serif;
+   /*подключеные шрифты */
+}
+
+/* начало header */
+
+header {
+   background-color: #ffffff;
+font-family: Dosis;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.wrapper {
+   /* wraper это доп обертка для добавления отступов и центровки */
+   width: 90%;
+   margin: auto;
+   height: 70px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center; 
+   padding: 50px 0px;
+}
+
+a {
+   color: #000000;
+font-family: Dosis;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+
+a:not(:last-child) {
+   margin-right: 25px;
+   /*отступы между текстами */
+}
+
+/*удаляет отступ у выбранного элемента(ребенка) */
+
+.social-icon:not(:last-child) {
+   margin-right: 25px;
+}
+
+.section-container-button {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   padding: 16px 32px;
+   gap: 10px;
+   border-radius: 999px;
+background: #ADA7FF;
+color: var(--Pure-white, #FFF);
+}
+
+.home{
+   color: #9A93FF;
+   font-family: Dosis;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+
+/* конец header */
+
+
+
+
+
+
+/* второй блок */
+.section1{
+   height: 763px;
+   display: flex;
+justify-content: center;
+align-items: center;  
+padding: 60px 134px 27.117px 135px;  
+background-color: #ffffff;
+}
+
+.table{
+   width: 90%;
+   height: 676px;
+   background-color: #ffffff;
+position: relative; 
+} 
+
+.pats{
+   
+   width: 45%;
+height: 675px;
+position: absolute;
+top: 0;
+right: 0;
+}
+/* DOG */
+.dog{
+   
+   width: 345px;
+   height: 361px;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.dog1{
+   
+   width: 240.713px; 
+   height: 344.22px;
+   position: absolute;
+   top: 14px;
+   right: 0px;
+   bottom: 2px;
+   left: 104px;
+   z-index: 1;
+}
+
+.dog2{
+   width: 345.022px;
+height: 361.07px;
+/* position: absolute; */
+/* top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); */
+}
+/* DOG */
+
+/* CAT */
+.cat{
+   width: 80%;
+height: 450px;
+
+/* position: relative;  */
+position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.cat0{
+   
+   width: 345px;
+   height: 361px;
+   position: absolute;
+   top: 62px;
+   bottom: 0px;
+   left: 0px;
+}
+
+.cat1{
+   
+   width: 345.022px;
+height: 361.07px;
+   position: absolute;
+   top: 14px;
+   right: 0px;
+   bottom: 2px;
+   left: 50px; 
+   z-index: 2;
+}
+
+.cat2{
+   width: 345.022px;
+height: 361.07px;
+/* position: absolute; */
+/* top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); */
+}
+/* CAT */
+
+
+/* Lapi */
+.violet{
+   position: relative;
+
+}
+.violap{
+   
+   position: absolute;
+   top: 12px;
+   left: 12px; 
+}
+
+
+.lapa2{
+   
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding-bottom: 25px;
+}
+.gelb{
+
+}
+.gelblap{
+   position: absolute;
+   top: 20px;
+   left: 20px;
+}
+/* Lapi */
+
+
+/* Knopki */
+.buttons{
+   display: flex;
+   padding-bottom: 60px;
+}
+
+.adopt-now{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   padding: 16px 32px;
+   gap: 10px;
+   border-radius: 999px;
+background: #ADA7FF;
+color: var(--Pure-white, #FFF);
+margin-right: 30px;
+padding-right: 60px;
+}
+
+.butlap{
+   
+   position: relative;
+   
+
+}
+.but{
+
+   
+}
+.lap{
+
+   position: absolute;
+   top: 12px;
+   right: 30px;
+   margin-right: 32px;
+}
+
+
+/* Knopki */
+
+ /* Zifri   */
+.zifri{
+
+   display: flex;
+   color: var(--Heading-Color, #302B3A);
+font-family: Dosis;
+font-size: 43px;
+font-style: normal;
+font-weight: 650;
+line-height: normal;
+}
+.kkk{
+
+   padding-right: 65px; 
+}
+.kk{
+padding-right: 65px;}
+
+
+
+.niz{
+   display: flex;
+   color: var(--Paragraph, #686868);
+font-family: Dosis;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.Product {
+padding-right: 121px; }
+
+.Seller {
+   padding-right: 114px;
+}
+.Review {
+} 
+
+ /* Zifri  */
+
+/* kontent */
+.kontent{
+   padding-top: 150px;
+
+/* width: 1500px;  */
+}
+
+
+
+
+.texth1{
+   color: var(--Heading-Color, #302B3A);
+font-family: Dosis;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 23px;
+}
+.textp{
+   width: 625px;
+   color: #404040;
+font-family: Dosis;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 60px;
+} 
+
+/* kontent */
+
+
+
+
